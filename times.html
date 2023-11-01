@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="Logos/favicon.ico" type="png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Los Manitos - Times</title>
+</head>
+<body>
+    <script src="Scripts/script.js"></script>
+    <header> <!--Início do header-->
+        <img src="Logos/Logo.png" alt="Logo" id="logo">
+        <div class="nav-container">
+            <nav id="topo"><!--Início da barra de navegação-->
+                <ul><!--Componentes do nav-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="times.html">TIMES</a></li>
+                    <li><a href="#">LOJA</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav><!--Fim da barra de navegação-->
+        </div>
+    </header><!--Fim do header-->
+    <section class="logos-times"><!-- Inicio da seção de colunas das imagens -->
+        <div>
+            <div class="coluna">
+                <img src="Logos/Logo CS-GO.png" alt="Logo CS-GO" onclick="mudarSlide(1)">
+                <img src="Logos/Logo Dota 2.png" alt="Logo Dota 2" onclick="mudarSlide(2)">
+                <img src="Logos/Logo EA-FC.png" alt="Logo EA-FC" onclick="mudarSlide(3)">
+            </div>
+            <div class="coluna">
+                <img src="Logos/Logo League of Legends.png" alt="Logo League of Legends" onclick="mudarSlide(4)">
+                <img src="Logos/Logo R6 Siege.png" alt="Logo R6 Siege" onclick="mudarSlide(5)">
+                <img src="Logos/Logo Valorant.png" alt="Logo Valorant" onclick="mudarSlide(6)">
+            </div>
+        </div>
+    </section> <!-- Fim da seção de colunas das imagens -->
+        <section class="carrossel-container"><!-- Inicio da seção de carrossel -->
+            <div class="carrossel-slides">
+                <div class="slide">
+                    <img src="Banners/Banner CS.png" alt="Banner CS-GO">
+                </div>
+                <div class="slide">
+                    <img src="Banners/Banner Dota 2.png" alt="Banner Dota 2">
+                </div>
+                <div class="slide">
+                    <img src="Banners/Banner EAFC.png" alt="Banner EA-FC">
+                </div>
+                <div class="slide" >
+                    <img src="Banners/Banner Lol.png" alt="Banner League of Legends">
+                </div>
+                <div class="slide">
+                    <img src="Banners/Banner R6.png" alt="Banner R6 Siege">
+                </div>
+                <div class="slide">
+                    <img src="Banners/Banner Valorant.png" alt="Banner Valorant">
+                </div>
+            </div>
+        </section><!-- Fim da seção de carrossel -->
+        <footer><!--Início do rodapé-->
+            &copy; 2023 Los Manitos - Todos os direitos reservados.
+        </footer><!--Fim do rodapé-->
+</body>
+</html>

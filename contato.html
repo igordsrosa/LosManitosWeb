@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="Logos/favicon.ico" type="png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Los Manitos - Contato</title>
+    <script>
+        alert("Utilize esse formulário para se comunicar conosco!")
+    </script>
+</head>
+<body>
+    <script src="Scripts/script.js"></script>
+    <header> <!--Início do header-->
+        <img src="Logos/Logo.png" alt="Logo" id="logo">
+        <div class="nav-container">
+            <nav id="topo"><!--Início da barra de navegação-->
+                <ul><!--Componentes do nav-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="times.html">TIMES</a></li>
+                    <li><a href="#">LOJA</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav><!--Fim da barra de navegação-->
+        </div>
+    </header><!--Fim do header-->
+    <main><!--Inicio do Main-->
+        <section>
+            <img class="bannerContato centro" src="Banners/bannerContato.png" alt="">
+        </section>
+        <section><!--Inicio do formulário-->
+            <form name="formContato" method="get"  action="igordossrosa@outlook.com" target="blank">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="" class="input-padrao" required placeholder="contato@contato.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao"></textarea>
+
+                <label for="contato">Como prefere o nosso contato?
+                    <input type="radio" value="radio-email" name="Contato"> E-mail
+                    <input type="radio" value="radio-telefone" name="Contato"> Telefone
+                    <input type="radio" value="radio-whatsapp" name="Contato"> WhatsApp
+                </label>
+                <br>
+                <br>
+                <label for="horario">Qual o motivo do seu contato?</label>
+                <select>
+                    <option>Selecione</option>
+                    <option>Dúvida</option>
+                    <option>Sugestão</option>
+                    <option>Elogio</option>
+                    <option>Reclamação</option>
+                </select>
+            </fieldset>
+            <label><input type="submit" value="Enviar Formulário" class="enviar"></label>
+        </form>
+        </section><!--Fim do formulário-->
+    </main><!--Fim do Main-->
+    <footer><!--Início do rodapé-->
+        &copy; 2023 Los Manitos - Todos os direitos reservados.
+    </footer><!--Fim do rodapé-->
+</body>
+</html>
